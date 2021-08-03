@@ -13,6 +13,7 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'create-pwa-app', // Usually your repo name.
   themeConfig: {
+    // hideableSidebar: true,
     navbar: {
       title: 'My Site',
       logo: {
