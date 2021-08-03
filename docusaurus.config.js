@@ -95,6 +95,7 @@ module.exports = {
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
+          // routeBasePath: '/', // Set this value to '/'.
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
