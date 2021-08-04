@@ -47,3 +47,16 @@ import {Highlight} from '../src/components/Highlight';
 <Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
 
 I can write **Markdown** alongside my _JSX_!
+
+## Code Snippets
+### Import the component from codebase
+
+import CodeBlock from '@theme/CodeBlock';
+import HomepageFeatures from '!!raw-loader!../src/components/HomepageFeatures';
+
+<CodeBlock className="language-jsx">{HomepageFeatures}</CodeBlock>
+
+### Import Markdown/MDX files
+
+import PartialExample from '../src/components/_markdown-partial-example.mdx';
+<PartialExample name='Harit'/>
