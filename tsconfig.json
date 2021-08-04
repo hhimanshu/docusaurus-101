@@ -2,5 +2,12 @@
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "include": [
     "src/"
-  ]
+  ],
+  "compilerOptions": {
+    "types": [
+      "node",
+      "@docusaurus/module-type-aliases",
+      "@docusaurus/theme-classic"
+    ]
+  }
 }
