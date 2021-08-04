@@ -85,7 +85,8 @@ body {
 }
 ```
 
-### Live Code Editor
+## Live Code Editor
+### When all `React` imports are available
 ```jsx live
 function Clock(props) {
   const [date, setDate] = useState(new Date());
@@ -104,6 +105,17 @@ function Clock(props) {
   return (
     <div>
       <h2>It is {date.toLocaleTimeString()}.</h2>
+    </div>
+  );
+}
+```
+
+### Extending React Live scope
+```jsx live
+function MyPlayground(props) {
+  return (
+    <div>
+      <ButtonExample onClick={() => alert('hey!')}>Click me</ButtonExample>
     </div>
   );
 }
