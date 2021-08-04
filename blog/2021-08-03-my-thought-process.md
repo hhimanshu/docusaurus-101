@@ -157,3 +157,28 @@ Some **content** with _markdown_ `syntax`. Check [this `api`](#).
 Some **content** with _markdown_ `syntax`. Check [this `api`](#).
 
 :::
+
+## Image Assets
+### `JPEG` image as Markdown
+![scooter](assets/2021-08-03-my-thought-process/scooter.jpeg)
+
+### `JPEG` image as `img`
+<img src={require('./assets/2021-08-03-my-thought-process/scooter.jpeg').default} alt="drawing" width="400"/>
+
+### `JPEG` image as ES `import` syntax
+
+import scooter from './assets/2021-08-03-my-thought-process/scooter.jpeg';
+
+<img src={scooter} alt="drawing" width="300"/>
+
+## File Assets
+### As Link
+
+<a
+target="_blank"
+href={require('./assets/2021-08-03-my-thought-process/aPdf.pdf').default}>
+Download this PDF
+</a>
+
+### As Markdown
+[Download this PDF using Markdown](./assets/2021-08-03-my-thought-process/aPdf.pdf)
