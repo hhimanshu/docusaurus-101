@@ -120,3 +120,40 @@ function MyPlayground(props) {
   );
 }
 ```
+
+## Alerts
+
+### Note
+:::note Important Information
+Some **content** with _markdown_ `syntax`. Check [this `api`](#)
+:::
+
+### Tip
+:::tip Never forget
+
+- [x] Brushing teeth
+- [x] Morning Coffee
+- [ ] Afternoon Nap
+:::
+
+### Info
+:::info Nice to have
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Caution
+:::caution Be careful
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Danger
+
+:::danger Stay Away!!
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
