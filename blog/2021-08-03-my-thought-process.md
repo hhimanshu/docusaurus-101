@@ -57,6 +57,30 @@ import HomepageFeatures from '!!raw-loader!../src/components/HomepageFeatures';
 <CodeBlock className="language-jsx">{HomepageFeatures}</CodeBlock>
 
 ### Import Markdown/MDX files
+TBD
 
-import PartialExample from '../src/components/_markdown-partial-example.mdx';
-<PartialExample name='Harit'/>
+### Code title
+```jsx title="/src/components/Highlight.jsx" {1,4-6,11}
+import React from 'react';
+
+function MyComponent(props) {
+    if (props.isBar) {
+        return <div>Bar</div>;
+    }
+
+    return <div>Foo</div>;
+}
+
+export default MyComponent;
+```
+
+### Syntax Highlighting
+```jsx title='console.log'
+console.log('Every repo must come with a mascot.');
+```
+
+```css  title='main.css'
+body {
+    font-size: 16px;
+}
+```
