@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_classic=self.webpackChunkmy_classic||[]).push([[67],{3318:function(s){s.exports=JSON.parse('{"allTagsPath":"/docusaurus101/blog/tags","slug":"thought","name":"thought","count":1,"permalink":"/docusaurus101/blog/tags/thought"}')}}]);

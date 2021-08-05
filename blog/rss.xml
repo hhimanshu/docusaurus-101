@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>BonsaiiLabs Site Blog</title>
-        <link>https://hhimanshu.github.io./docusaurus101/blog</link>
+        <link>https://hhimanshu.github.io./docusaurus-101/blog</link>
         <description>BonsaiiLabs Site Blog</description>
         <lastBuildDate>Tue, 03 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <copyright>Copyright © 2021 Harit Himanshu</copyright>
         <item>
             <title><![CDATA[My first interaction with blog]]></title>
-            <link>https://hhimanshu.github.io./docusaurus101/blog/2021/08/03/my-thought-process</link>
+            <link>https://hhimanshu.github.io./docusaurus-101/blog/2021/08/03/my-thought-process</link>
             <guid>My first interaction with blog</guid>
             <pubDate>Tue, 03 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[This is my first post on Docusaurus 2.]]></description>
