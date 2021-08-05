@@ -225,3 +225,13 @@ import GuitarSvg from './assets/2021-08-03-my-thought-process/guitar.svg'
     <p><a href="https://vimeo.com/391115017">JavaScript Concurrency Model</a> from <a href="https://vimeo.com/bonsaiiilabs">BonsaiiLabs</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 </figure>
 ```
+
+## Embed Codesandbox
+<figure>
+<iframe src="https://codesandbox.io/embed/algolia-autocomplete-example-emi4r?fontsize=14&hidenavigation=1&theme=dark"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="algolia-autocomplete-example"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
+</figure>
