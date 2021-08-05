@@ -15,7 +15,7 @@ module.exports = {
   themes: ['@docusaurus/theme-live-codeblock'],
   trailingSlash: false,
   themeConfig: {
-    // hideableSidebar: true,
+    hideableSidebar: true,
     navbar: {
       title: 'My Site',
       logo: {
@@ -102,11 +102,12 @@ module.exports = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/hhimanshu/docusaurus-101/tree/main/blog',
           feedOptions: {
             type: 'all',
             copyright: `Copyright © ${new Date().getFullYear()} Harit Himanshu`,
           },
+          blogSidebarCount: 5,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
