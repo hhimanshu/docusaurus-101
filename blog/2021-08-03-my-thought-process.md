@@ -182,3 +182,10 @@ Download this PDF
 
 ### As Markdown
 [Download this PDF using Markdown](./assets/2021-08-03-my-thought-process/aPdf.pdf)
+
+## SVG Assets
+
+import GuitarSvg from './assets/2021-08-03-my-thought-process/guitar.svg'
+
+<GuitarSvg style={{width: 200}} />
+
