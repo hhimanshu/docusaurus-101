@@ -5,14 +5,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'BonsaiiLabs Site',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://hhimanshu.github.io.',
+  baseUrl: '/docusaurus-101/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'create-pwa-app', // Usually your repo name.
+  organizationName: 'hhimanshu', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-101', // Usually your repo name.
   themes: ['@docusaurus/theme-live-codeblock'],
+  trailingSlash: false,
   themeConfig: {
     // hideableSidebar: true,
     navbar: {
