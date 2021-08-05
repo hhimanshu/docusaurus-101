@@ -1,5 +1,5 @@
 ---
-title: My first interaction with blog
+title: My thought process is copied
 author: Harit Himanshu
 author_title: Co-creator of bonsaiilabs
 author_url: https://github.com/hhimanshu
