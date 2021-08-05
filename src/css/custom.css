@@ -10,6 +10,7 @@
   --ifm-color-primary: #000;
   --ifm-color-primary-light: #fff;
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Inter";
 }
 
 html[data-theme='dark'] {
