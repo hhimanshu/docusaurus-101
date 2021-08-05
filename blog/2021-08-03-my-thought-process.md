@@ -201,3 +201,27 @@ import GuitarSvg from './assets/2021-08-03-my-thought-process/guitar.svg'
 
 <GuitarSvg style={{width: 200}} />
 
+## Video
+### YouTube
+<figure className="video-container">
+  <iframe src="//www.youtube.com/embed/nYkdrAPrdcw?list=PLb0IAmt7-GS188xDYE-u1ShQmFFGbrk0v&start=621" allowFullScreen width="100%"></iframe>
+</figure>
+
+```html
+<figure className="video-container">
+  <iframe src="//www.youtube.com/embed/nYkdrAPrdcw?list=PLb0IAmt7-GS188xDYE-u1ShQmFFGbrk0v&start=621" allowFullScreen width="100%"></iframe>
+</figure>
+```
+
+### Vimeo
+<figure className="video-container">
+  <iframe src="https://player.vimeo.com/video/391115017" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+<p><a href="https://vimeo.com/391115017">JavaScript Concurrency Model</a> from <a href="https://vimeo.com/bonsaiiilabs">BonsaiiLabs</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</figure>
+
+```html
+<figure className="video-container">
+    <iframe src="https://player.vimeo.com/video/391115017" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen></iframe>
+    <p><a href="https://vimeo.com/391115017">JavaScript Concurrency Model</a> from <a href="https://vimeo.com/bonsaiiilabs">BonsaiiLabs</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</figure>
+```
