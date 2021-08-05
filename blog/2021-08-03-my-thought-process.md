@@ -57,7 +57,17 @@ import HomepageFeatures from '!!raw-loader!../src/components/HomepageFeatures';
 <CodeBlock className="language-jsx">{HomepageFeatures}</CodeBlock>
 
 ### Import Markdown/MDX files
-TBD
+
+:::info
+<img src='/img/blog/2021-08-03-my-thought-process/01.jpeg' alt="drawing" width="400"/>
+
+The location of mdx file to import matters right now.
+Read [this comment](https://github.com/facebook/docusaurus/issues/5286#issuecomment-893256200) to learn more
+:::
+
+import PartialExample from '../src/pages/_markdown-partial-example.mdx';
+
+<PartialExample name='Harit'/>
 
 ### Code title
 ```jsx title="/src/components/Highlight.jsx" {1,4-6,11}
@@ -134,7 +144,7 @@ Some **content** with _markdown_ `syntax`. Check [this `api`](#)
 - [x] Brushing teeth
 - [x] Morning Coffee
 - [ ] Afternoon Nap
-:::
+  :::
 
 ### Info
 :::info Nice to have
