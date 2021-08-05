@@ -18,7 +18,7 @@ Welcome to this blog. See all features working here
 ![image alt](/img/blog/2021-08-03-my-thought-process/01.jpeg)
 
 ### with `<img>` tag to control height
-<img src='/img/blog/2021-08-03-my-thought-process/01.jpeg' alt="drawing" width="400"/>
+<img src={require('@site/static/img/blog/2021-08-03-my-thought-process/01.jpeg').default} alt="drawing" width="400"/>
 
 ## Quote
 > This a quote by a very important person
@@ -58,8 +58,10 @@ import HomepageFeatures from '!!raw-loader!../src/components/HomepageFeatures';
 
 ### Import Markdown/MDX files
 
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
 :::info
-<img src='/img/blog/2021-08-03-my-thought-process/01.jpeg' alt="drawing" width="400"/>
+<img src={useBaseUrl('/img/blog/2021-08-03-my-thought-process/01.jpeg')} alt="drawing" width="400"/>
 
 The location of mdx file to import matters right now.
 Read [this comment](https://github.com/facebook/docusaurus/issues/5286#issuecomment-893256200) to learn more
