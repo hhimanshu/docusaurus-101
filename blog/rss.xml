@@ -4,10 +4,17 @@
         <title>BonsaiiLabs Site Blog</title>
         <link>https://hhimanshu.github.io./docusaurus-101/blog</link>
         <description>BonsaiiLabs Site Blog</description>
-        <lastBuildDate>Tue, 03 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2021 Harit Himanshu</copyright>
+        <item>
+            <title><![CDATA[My thought process is copied]]></title>
+            <link>https://hhimanshu.github.io./docusaurus-101/blog/2021/08/05/my-thought-process-is-copied</link>
+            <guid>My thought process is copied</guid>
+            <pubDate>Thu, 05 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first post on Docusaurus 2.]]></description>
+        </item>
         <item>
             <title><![CDATA[My first interaction with blog]]></title>
             <link>https://hhimanshu.github.io./docusaurus-101/blog/2021/08/03/my-thought-process</link>
