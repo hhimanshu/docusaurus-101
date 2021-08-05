@@ -144,7 +144,7 @@ Some **content** with _markdown_ `syntax`. Check [this `api`](#)
 - [x] Brushing teeth
 - [x] Morning Coffee
 - [ ] Afternoon Nap
-  :::
+:::
 
 ### Info
 :::info Nice to have
