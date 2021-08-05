@@ -68,3 +68,134 @@ Read [this comment](https://github.com/facebook/docusaurus/issues/5286#issuecomm
 import PartialExample from '../src/pages/_markdown-partial-example.mdx';
 
 <PartialExample name='Harit'/>
+
+### Code title
+```jsx title="/src/components/Highlight.jsx" {1,4-6,11}
+import React from 'react';
+
+function MyComponent(props) {
+    if (props.isBar) {
+        return <div>Bar</div>;
+    }
+
+    return <div>Foo</div>;
+}
+
+export default MyComponent;
+```
+
+### Syntax Highlighting
+```jsx title='console.log'
+console.log('Every repo must come with a mascot.');
+```
+
+```css  title='main.css'
+body {
+    font-size: 16px;
+}
+```
+
+## Live Code Editor
+### When all `React` imports are available
+```jsx live
+function Clock(props) {
+  const [date, setDate] = useState(new Date());
+  useEffect(() => {
+    var timerID = setInterval(() => tick(), 1000);
+
+    return function cleanup() {
+      clearInterval(timerID);
+    };
+  });
+
+  function tick() {
+    setDate(new Date());
+  }
+
+  return (
+    <div>
+      <h2>It is {date.toLocaleTimeString()}.</h2>
+    </div>
+  );
+}
+```
+
+### Extending React Live scope
+```jsx live
+function MyPlayground(props) {
+  return (
+    <div>
+      <ButtonExample onClick={() => alert('hey!')}>Click me</ButtonExample>
+    </div>
+  );
+}
+```
+
+## Alerts
+
+### Note
+:::note Important Information
+Some **content** with _markdown_ `syntax`. Check [this `api`](#)
+:::
+
+### Tip
+:::tip Never forget
+
+- [x] Brushing teeth
+- [x] Morning Coffee
+- [ ] Afternoon Nap
+  :::
+
+### Info
+:::info Nice to have
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Caution
+:::caution Be careful
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+### Danger
+
+:::danger Stay Away!!
+
+Some **content** with _markdown_ `syntax`. Check [this `api`](#).
+
+:::
+
+## Image Assets
+### `JPEG` image as Markdown
+![scooter](assets/2021-08-03-my-thought-process/scooter.jpeg)
+
+### `JPEG` image as `img`
+<img src={require('./assets/2021-08-03-my-thought-process/scooter.jpeg').default} alt="drawing" width="400"/>
+
+### `JPEG` image as ES `import` syntax
+
+import scooter from './assets/2021-08-03-my-thought-process/scooter.jpeg';
+
+<img src={scooter} alt="drawing" width="300"/>
+
+## File Assets
+### As Link
+
+<a
+target="_blank"
+href={require('./assets/2021-08-03-my-thought-process/aPdf.pdf').default}>
+Download this PDF
+</a>
+
+### As Markdown
+[Download this PDF using Markdown](./assets/2021-08-03-my-thought-process/aPdf.pdf)
+
+## SVG Assets
+
+import GuitarSvg from './assets/2021-08-03-my-thought-process/guitar.svg'
+
+<GuitarSvg style={{width: 200}} />
+
